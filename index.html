@@ -1,0 +1,42 @@
+<html>
+  
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="app.js">
+    </script>
+</head>
+  
+<body>
+    <div class="container">
+        <h1>House Price Calculator</h1>
+        <div class="wrapper">
+  
+            <p>LotArea</p>
+            <input type="text" id="amount" placeholder=""> 
+            <p>Overallcondition</p>
+            <select id="services">
+                <option selected disabled hidden>
+                    Select
+                </option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+            </select>
+            <p>Yearbuilt</p>
+            <input type="text" id="persons" placeholder="">
+            <p>Yearremodified</p>
+            <input type="text" id="persons" placeholder="">
+            <button id="calculate">Calculate</button>
+        </div>
+  
+        <div class="tip">
+            <p>Tip Amount</p>
+            <span id="total">0</span>₹
+            <span id="each">each</span>
+        </div>
+    </div>
+</body>
+  
+</html>
